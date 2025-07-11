@@ -1,0 +1,29 @@
+{
+  "name": "media-downloader-api",
+  "version": "1.0.0",
+  "description": "Professional media downloader REST API built with Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "media",
+    "downloader",
+    "api",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1",
+    "path": "^0.12.7",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
